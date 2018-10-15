@@ -7,7 +7,7 @@
 4. Run npm install from the project directory (from the same level as         package.json)
 5. When node modules are successfully installed, run
    ng serve to start the dev server. Navigate to `http://localhost:4200/`
-6. The project currently only handles the 'select' queries. 
+6. The project currently only handles the 'select' queries. Following usecases are handled.
 7. List of all columns:
     Type 'select' and move cursor after select to get list of all columns.
 8. List of all tables:
@@ -16,6 +16,7 @@
     Type 'select from table1,table2' and move cursor between 'select' and 'from' to get a list of columns from table1 and table2
 10. List of tables for particular columns
     Type 'select col1,col2 from' and move cursor after 'from' to get a list of tables that have col1 and col2.
+11. Selecting an item from the dropdown will insert that column name/table name into the textarea query.   
 
 
 
