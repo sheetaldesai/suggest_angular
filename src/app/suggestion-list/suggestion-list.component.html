@@ -1,0 +1,7 @@
+<div *ngIf="show">
+  <ul class="root" [ngStyle]="{'position':'absolute', 'top': top, 'left': left}">
+      <li *ngFor="let suggestion of suggestions" (click)="select(suggestion)">
+          {{suggestion.snippet}}
+      </li>
+  </ul>
+</div>
